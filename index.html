@@ -1,8 +1,61 @@
 <h1>Yusuf Emre Baltacı</h1>
   <h2>Hakkımda</h2>
-  <p>Merhaba. Ben Yusuf Emre Baltacı. 1998 İstanbul doğumluyum. Aslen Kars-Sarıkamışlıyım. Tekirdağ Namık Kemal Üniversitesi İlahiyat fakültesini bitirdikten sonra, Kastamonu Üniversitesi Din Sosyolojisi bilimdalında master yapmaya başladım. Şuan "Edebiyat Dergiciliğinde Din ve Toplum: Mavera Dergisi Örneği" adlı tez çalışmamı sürdürüyorum.</p>
+    <p>Merhaba. Ben Yusuf Emre Baltacı. 1998 İstanbul doğumluyum. Aslen Kars-Sarıkamışlıyım. Tekirdağ Namık Kemal Üniversitesi İlahiyat fakültesini bitirdikten sonra, Kastamonu Üniversitesi Din Sosyolojisi bilimdalında master yapmaya başladım. Şuan "Edebiyat Dergiciliğinde Din ve Toplum: Mavera Dergisi Örneği" adlı tez çalışmamı sürdürüyorum.</p>
   <!-- Tanıtım bölümü bitişi, hobiler başlangıcı -->
   <h2>Sevdiğim Diziler</h2>
-  <p>HIMYM: Çocuklarına, geçmişte anneleriyle nasıl tanıştığını anlatan bir babanın hikayesidir. Sit-Com tarzında olan bu yapımda çok güleceğinizin garantisini verebilirim!</p>
-  
+    <p>HIMYM: Çocuklarına, geçmişte anneleriyle nasıl tanıştığını anlatan bir babanın hikayesidir. Sit-Com tarzında olan bu yapımda çok güleceğinizin garantisini verebilirim!</p>
 
+  <!-- Sıralı Listeler= 1.  2.  3. => Ordered List <ol> </ol>
+        Sırasız Listeler= *  *  *  => Unordered List <ul></ul>
+ -->
+<h2>Listeler</h2>
+<ol>
+    <li>Liste Ögesi 1</li>
+    <li>Liste Ögesi 2</li>
+    <li>Diğer Listeler:
+        <ul>
+            <li>Liste Ögesi 1</li>
+            <li>Liste Ögesi 2</li>
+            <li>Liste Ögesi 3</li>
+        </ul>
+    </li>
+</ol>
+
+<ul>
+    <li>Liste Ögesi 1</li>
+    <li>Liste Ögesi 2</li>
+    <li>Liste Ögesi 3</li>
+</ul>
+<!-- Listeler bitti, Emmet ile çalışma başladı -->
+
+<h1>Emmet İle Çalışmak</h1>
+<!-- Etiket isimlerini direkt verebiliyoruz
+    + kullanırsan kardeş öge=== h1+h2
+    > kullanırsan içinde öge=== ul>li
+    ^ yukarı çık ve öge oluştur== ul>li^p
+    * çarp===== p*4
+    lorem==Random uzun yazı oluşturur(lorem4= 4 kelimelik yazı)
+    . Class oluşturmak için kullanılır= h3.deneme
+    # ID oluşturmak için kullanılır
+-->
+<h3 class="deneme">Lorem, ipsum.</h3>
+<h3 id="idolussun">Lorem, ipsum.</h3>
+<h3 class="deneme" id="idolussun">Lorem ipsum dolor sit.</h3>
+
+<h1>Görsellerle çalışmak</h1>
+<!-- <img src="" alt=""> 
+src: Source yani kaynak demek. Link buraya.
+alt: Alternative Text demek. 
+-->
+
+<!-- img  yaz tab a bas ve <img src="" alt=""> gelsin-->
+
+<img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_1080,h_390/https://assets.ubuntu.com/v1/beadabd5-mascots_kudu-jelly.svg" alt="Ubuntudan Görsel">
+
+<!-- https://picsum.photos adresinden lorem metinleri gibi random fotoğraf edinebilirsin. -->
+
+<img src="https://picsum.photos/200/300" alt="">
+
+<!-- YAPILAN BU ÖRNEKLER İNTERNETTEN FOTOĞRAF BULMAKTI, ALTTAKİLER PC DEN FOTOĞRAF YÜKLEMEK. -->
+
+<img src="" alt="">
