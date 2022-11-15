@@ -4,19 +4,27 @@
     id-> oluşturmak için: # koy.
 */
 
-h1, h2, h3, h4, h5, h6 {
-    color: crimson;
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
+    text-transform: uppercase;
+}
+
+
+
 #first-article {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .text-red{
     color: red;
 }
 
-.fs-15 {
+.fs-25 {
     font-size: 15px;
 }
 
