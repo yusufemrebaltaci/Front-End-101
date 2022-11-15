@@ -1,12 +1,29 @@
-h2 {
-    color: darkblue;
-    font-size: 64px;
+/********************** Layout *****************/
+
+/* class-> oluşturmak için: . koy 
+    id-> oluşturmak için: # koy.
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
 }
-p {
-    color: blueviolet;
-    font-size: 20px;
+
+#first-article {
+    font-size: 35px;
 }
-h1 {
-    color: aqua;
-    font-size: 64px;
+
+.text-red{
+    color: red;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-45{
+    font-size: 45px;
 }
