@@ -4,9 +4,14 @@
     id-> oluşturmak için: # koy.
 */
 
+
+ul > li :first-child {
+    color: blue;
+}
+
 body{
     background-color: aquamarine;
-    font-family: 'Times New Roman', Times, serif;
+font-family: 'Times New Roman', Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
